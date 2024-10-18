@@ -38,6 +38,17 @@ public class Main {
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total +" рублей.");
         }
         System.out.println("Задача 9");
-
+         int salaryTwo = 29000;
+         float totalTwo = 0;
+        for(int i = 1; i <= 12; i = i + 1){ totalTwo = totalTwo + totalTwo/100;
+            totalTwo = totalTwo + salaryTwo;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + totalTwo +" рублей.");
+        }
+        System.out.println("Задача 10");
+        int table = 2;
+        int number = 0;
+        for(int i = 1; i <= 10; i++) {
+            System.out.println("2 * " + i + " = " + (table * i));
+        }
     }
 }
