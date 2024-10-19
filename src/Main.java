@@ -4,7 +4,7 @@ public class Main {
         for (int i = 1; i <= 10; i = i + 1) {
             System.out.println("Целое число: " + i);
         }
-        System.out.println("Задача 2");
+        System.out.println("Task 2");
         for (int i = 10; i > 0; i = i - 1) {
             System.out.println("Целое число: " + i);
         }
